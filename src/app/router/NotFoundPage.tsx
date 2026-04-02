@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NotFoundPage() {
 	return (
@@ -6,9 +6,9 @@ function NotFoundPage() {
 			<p className="page-kicker">404</p>
 			<h1 className="page-title">Page not found</h1>
 			<p className="page-copy">The page you are looking for does not exist.</p>
-			<NavLink to="/" className="button-primary mt-6">
+			<Link to="/" className="button-primary mt-6">
 				Go back home
-			</NavLink>
+			</Link>
 		</section>
 	);
 }

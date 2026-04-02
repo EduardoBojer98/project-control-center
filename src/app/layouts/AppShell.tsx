@@ -26,7 +26,9 @@ function AppShell() {
 							to={item.to}
 							end={item.end}
 							className={({ isActive }) =>
-								isActive ? "app-nav__link app-nav__link--active" : "app-nav__link"
+								isActive
+									? "app-nav__link app-nav__link--active"
+									: "app-nav__link"
 							}
 						>
 							{item.label}
