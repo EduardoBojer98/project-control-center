@@ -1,24 +1,24 @@
-import { createBrowserRouter } from 'react-router-dom';
-import HomePage from '../../features/dashboard/pages/HomePage';
-import DashboardPage from '../../features/dashboard/pages/DashboardPage';
-import NotFound from '../../features/dashboard/pages/NotFound404';
-import DashboardLogin  from '../../features/dashboard/pages/DashboardLogin';
+import { createBrowserRouter } from "react-router-dom";
+import NotFoundPage from "./NotFoundPage";
+import LoginPage from "../../features/auth/pages/LoginPage";
+import DashboardPage from "../../features/dashboard/pages/DashboardPage";
+import HomePage from "../../features/dashboard/pages/HomePage";
 
 export const router = createBrowserRouter([
 	{
-		path: '/',
+		path: "/",
 		element: <HomePage />,
 	},
 	{
-		path: '*',
-		element: <NotFound />,
+		path: "*",
+		element: <NotFoundPage />,
 	},
 	{
-		path: '/login',
-		element: <DashboardLogin />,
+		path: "/login",
+		element: <LoginPage />,
 	},
 	{
-		path: '/dashboard',
+		path: "/dashboard",
 		element: <DashboardPage />,
-	}
+	},
 ]);

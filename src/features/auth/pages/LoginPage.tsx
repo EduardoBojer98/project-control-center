@@ -1,4 +1,4 @@
-function DashboardLogin() {
+function LoginPage() {
 	return (
 		<div className="bg-gray-100 p-4">
 			<h1>Dashboard Login</h1>
@@ -7,4 +7,4 @@ function DashboardLogin() {
 	);
 }
 
-export default DashboardLogin;
+export default LoginPage;
