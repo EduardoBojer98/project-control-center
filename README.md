@@ -19,29 +19,6 @@ The main goal is not just to finish an app, but to learn how to build a modern f
 - preparation for a future mobile app
 
 ---
-
-## Why this project
-
-You already work with:
-
-- JavaScript
-- CSS
-- HTML
-- PHP
-- WordPress
-
-That means you already understand UI, frontend logic, and real-world client work.
-
-This project helps you move into modern app development by teaching:
-
-- component-based architecture
-- typed code with TypeScript
-- frontend data flow
-- app structure at scale
-- product-style features instead of only page builds
-
----
-
 ## Project idea
 
 Build a product-style app called **StudioFlow**.
