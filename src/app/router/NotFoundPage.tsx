@@ -1,9 +1,15 @@
+import { NavLink } from "react-router-dom";
+
 function NotFoundPage() {
 	return (
-		<div className="bg-gray-100 p-4">
-			<h1>404 - Not Found</h1>
-			<p>The page you are looking for does not exist.</p>
-		</div>
+		<section className="page-panel text-center justify-center">
+			<p className="page-kicker">404</p>
+			<h1 className="page-title">Page not found</h1>
+			<p className="page-copy">The page you are looking for does not exist.</p>
+			<NavLink to="/" className="button-primary mt-6">
+				Go back home
+			</NavLink>
+		</section>
 	);
 }
 

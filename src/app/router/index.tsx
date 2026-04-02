@@ -3,22 +3,29 @@ import NotFoundPage from "./NotFoundPage";
 import LoginPage from "../../features/auth/pages/LoginPage";
 import DashboardPage from "../../features/dashboard/pages/DashboardPage";
 import HomePage from "../../features/dashboard/pages/HomePage";
+import AppShell from "../layouts/AppShell";
 
 export const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <HomePage />,
-	},
-	{
-		path: "*",
-		element: <NotFoundPage />,
-	},
-	{
-		path: "/login",
-		element: <LoginPage />,
-	},
-	{
-		path: "/dashboard",
-		element: <DashboardPage />,
+		element: <AppShell />,
+		children: [
+			{
+				index: true,
+				element: <HomePage />,
+			},
+			{
+				path: "login",
+				element: <LoginPage />,
+			},
+			{
+				path: "dashboard",
+				element: <DashboardPage />,
+			},
+			{
+				path: "*",
+				element: <NotFoundPage />,
+			},
+		],
 	},
 ]);

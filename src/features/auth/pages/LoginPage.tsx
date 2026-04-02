@@ -1,9 +1,10 @@
 function LoginPage() {
 	return (
-		<div className="bg-gray-100 p-4">
-			<h1>Dashboard Login</h1>
-			<p>Please log in to access the dashboard.</p>
-		</div>
+		<section className="page-panel">
+			<p className="page-kicker">Authentication</p>
+			<h1 className="page-title">Dashboard Login</h1>
+			<p className="page-copy">Please log in to access the dashboard.</p>
+		</section>
 	);
 }
 
