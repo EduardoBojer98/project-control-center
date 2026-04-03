@@ -1,73 +1,55 @@
-# React + TypeScript + Vite
+# Full-Stack Developer Learning Canvas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is now a blank project on purpose.
 
-Currently, two official plugins are available:
+The goal is not to give you finished code.
+The goal is to give you a clear path to build your own full-stack project from zero while learning React, TypeScript, backend development, databases, testing, and deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Everything you need to focus on next is inside the `tasks/` folder.
 
-## React Compiler
+## How to use this repo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Open the `tasks/` folder.
+2. Work through the files in number order.
+3. Build each part yourself.
+4. Do not rush to the final app.
+5. Finish the exercises before moving on.
 
-## Expanding the ESLint configuration
+## Learning rule
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+For each task:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- read the goal
+- build the feature yourself
+- write notes about what you learned
+- keep code small and understandable
+- only move on when you can explain what you built
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Suggested final app idea
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Build a project management app with:
+
+- auth
+- dashboard
+- projects
+- tasks
+- comments
+- notifications
+- settings
+
+But do it in stages.
+Do not build everything at once.
+
+## Folder to use
+
+- `tasks/` contains the full learning roadmap
+
+When you are ready, create your code inside new folders like:
+
+```text
+client/
+server/
+shared/
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Only create them when the tasks tell you to.
