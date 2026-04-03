@@ -1,50 +1,48 @@
-# Full-Stack Developer Learning Canvas
+# React + TypeScript Full-Stack Roadmap
 
-This repository is now a blank project on purpose.
+This repository is a learning roadmap built for an intermediate frontend developer who already knows HTML, CSS, responsive layout, and real project work from WordPress or similar environments.
 
-The goal is not to give you finished code.
-The goal is to give you a clear path to build your own full-stack project from zero while learning React, TypeScript, backend development, databases, testing, and deployment.
+The focus is now on the skills that move you from "frontend developer" to "strong React + TypeScript full-stack developer":
 
-Everything you need to focus on next is inside the `tasks/` folder.
+- deeper JavaScript
+- practical TypeScript
+- modern React
+- frontend architecture
+- API integration
+- backend with Node.js
+- databases
+- auth
+- testing
+- deployment
+
+## Who this roadmap is for
+
+You already have:
+
+- real frontend experience
+- strong HTML and CSS foundations
+- experience building layouts and shipping client work
+- basic JavaScript knowledge
+
+You want to improve:
+
+- JavaScript depth
+- React confidence
+- TypeScript fluency
+- full-stack understanding
+- project architecture skills
 
 ## How to use this repo
 
-1. Open the `tasks/` folder.
-2. Work through the files in number order.
-3. Build each part yourself.
-4. Do not rush to the final app.
-5. Finish the exercises before moving on.
+1. Work through the `tasks/` files in order.
+2. Build things while learning, not just read.
+3. Keep notes for every topic you struggle with.
+4. Rebuild concepts from memory after you learn them.
+5. Create your own project while following the roadmap.
 
-## Learning rule
+## Suggested code folders
 
-For each task:
-
-- read the goal
-- build the feature yourself
-- write notes about what you learned
-- keep code small and understandable
-- only move on when you can explain what you built
-
-## Suggested final app idea
-
-Build a project management app with:
-
-- auth
-- dashboard
-- projects
-- tasks
-- comments
-- notifications
-- settings
-
-But do it in stages.
-Do not build everything at once.
-
-## Folder to use
-
-- `tasks/` contains the full learning roadmap
-
-When you are ready, create your code inside new folders like:
+When you are ready to build, use:
 
 ```text
 client/
@@ -52,4 +50,6 @@ server/
 shared/
 ```
 
-Only create them when the tasks tell you to.
+## Main goal
+
+By the end of this roadmap, you should be able to build and explain a full-stack app using React, TypeScript, Node.js, APIs, a database, auth, testing, and deployment.

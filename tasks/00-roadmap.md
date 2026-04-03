@@ -2,39 +2,53 @@
 
 ## Goal
 
-Understand the full journey before writing code.
+Understand the path from frontend developer to strong React + TypeScript full-stack developer.
 
-## What you are learning
+## Your current starting point
 
-- how frontend and backend work together
-- what React is responsible for
-- what TypeScript adds
-- what a backend API does
-- what a database does
-- how auth, testing, and deployment fit in
+You already know:
 
-## Main path
+- HTML
+- CSS
+- responsive layout
+- component-based thinking from real frontend work
+- some JavaScript basics
 
-1. Internet basics and developer tools
-2. HTML, CSS, JavaScript basics
-3. TypeScript fundamentals
-4. React fundamentals
-5. React Router and forms
-6. State management and API requests
-7. Node.js backend basics
-8. REST API design
-9. Database basics
+You need to level up in:
+
+- JavaScript depth
+- React patterns
+- TypeScript confidence
+- data flow
+- backend development
+- database design
+- authentication
+- testing
+- deployment
+
+## Main learning path
+
+1. Developer workflow for modern JavaScript projects
+2. Intermediate and advanced JavaScript
+3. TypeScript fundamentals and real-world patterns
+4. Modern React fundamentals
+5. React architecture, hooks, and state patterns
+6. Routing, forms, and validation
+7. Data fetching and API architecture
+8. Node.js and Express backend development
+9. SQL, PostgreSQL, and Prisma
 10. Authentication and authorization
-11. Testing
-12. Deployment
-13. Build a complete full-stack project
+11. Testing frontend and backend code
+12. Deployment and production thinking
+13. Build a full-stack app from scratch
 
-## Your mission
+## Core rule
 
-By the end, you should be able to build a small full-stack app by yourself.
+Do not just read topics.
+Build with them.
 
 ## Done when
 
-- you understand what each layer does
-- you know the order you will learn things in
-- you commit to building step by step
+- you know the order of learning
+- you understand why each step matters
+- you are ready to build as you learn
